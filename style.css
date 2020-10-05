@@ -1,0 +1,109 @@
+body {
+    background: #f4f4f4;
+}
+
+.wrapper {
+    background: #DDD;
+    width: 900px;
+    margin: 20px auto;
+    border: #CCC solid 1px;
+}
+
+.wrapper .header {
+    background: #de6581;
+    /*height: 50px;*/
+    width: 118%;
+    padding: 2px 10px;
+}
+
+.wrapper .menu {
+    background: #eacd9a;
+    width: 120%;
+    height: 40px;
+}
+
+.wrapper .menu ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+.wrapper .menu ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.body {
+    height: 1000px;
+}
+
+.wrapper .body .content {
+    background: #f1f1f1;
+    float: left;
+    height: 75%;
+    width: 120%;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+form {
+    border: 1px dashed brown;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fffacd;
+}
+
+h2 {
+    background-color: darkgray;
+    margin: 0;
+    margin-bottom: 12 px;
+    padding: 15 px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 4px 10px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 8px;
+}
+
+.btn {
+    padding: 6px 20px;
+    background-color: #aad8e6;
+    border: 1px solid black;
+    color: black;
+}
+
+.wrapper .footer {
+    font-size: 150%;
+    background: darkgray;
+    width: 120%;
+    padding: 7px 0px 0px 20px;
+    text-align: center;
+}
